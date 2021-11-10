@@ -132,7 +132,7 @@ let passingScore = 7
 
 //CODE HERE
 
-// var changeMyMind = true
+ var changeMyMind = true
 // if (changeMyMind === true){
 //   changeMyMind = false
 // } else if (changeMyMind === false){
@@ -153,12 +153,17 @@ let passingScore = 7
 ////////// PROBLEM 11 //////////
 
 let z = 5
+let a = undefined
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
 
 while (z > 0){
-  console.log(z , z-1 , z-2, z-3, z-4);
+  a = (z-a)
+  console.log(z)
+  while (a > 0){
+    console.log(a-1, a-2, a-3)
+    return
+  }
   z--
-
 }
