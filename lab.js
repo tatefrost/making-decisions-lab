@@ -133,11 +133,11 @@ let passingScore = 7
 //CODE HERE
 
  var changeMyMind = true
-// if (changeMyMind === true){
-//   changeMyMind = false
-// } else if (changeMyMind === false){
-//   changeMyMind = true
-// }
+if (changeMyMind === true){
+  changeMyMind = false
+} else if (changeMyMind === false){
+  changeMyMind = true
+}
 
 // console.log(changeMyMind);
 
@@ -158,12 +158,10 @@ let a = undefined
 
 //CODE HERE
 
-while (z > 0){
-  a = (z-a)
-  console.log(z)
-  while (a > 0){
-    console.log(a-1, a-2, a-3)
-    return
-  }
-  z--
+
+while(z > 0){
+    for(i=z; i > 0; i--){
+      console.log(i);
+    }
+    z--;
 }
